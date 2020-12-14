@@ -87,25 +87,14 @@ ul {
   text-transform: uppercase;
 }
 
-/* Стилизация кнопок */
 .hero-button {
   background-color: var(--accent-color);
   color: var(--primary-text-color-darkbcg);
   font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.9;
+  line-height: 1.88;
   letter-spacing: 0.06em;
-}
-
-.button.primary {
-  background-color: var(--accent-color);
-  color: var(--primary-text-color-darkbcg);
-}
-
-.button.secondary {
-  background-color: var(--primary-bcg-color);
-  color: var(--sub-text-color);
 }
 
 /* Стилизация секции с преимуществами */
@@ -151,7 +140,42 @@ ul {
   color: var(--sub-text-color-darkbcg);
   text-decoration: none;
 }
+
 .links:hover,
 .links:focus {
   color: var(--accent-color);
+}
+
+/* Стилизация страницы Портфолио */
+/* Стилизация кнопок */
+.buttons-list {
+  color: var(--sub-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+}
+
+.buttons-list .button {
+  background-color: var(--light-bcg-color);
+}
+
+.button:hover,
+.button:focus,
+.button.current {
+  background-color: var(--accent-color);
+}
+
+/* Стилизация секции с работами */
+.work-list .title {
+  color: var(--sub-text-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.work-list .text {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
 }
