@@ -163,6 +163,7 @@ ul {
 .button:focus,
 .button.current {
   background-color: var(--accent-color);
+  color: var(--primary-text-color-darkbcg);
 }
 
 /* Стилизация секции с работами */
